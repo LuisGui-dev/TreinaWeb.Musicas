@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.Web", "TreinaWeb.Musicas.Web\TreinaWeb.Musicas.Web.csproj", "{8D9D21F4-648D-446A-8C27-4E52854AD766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{C9944FC5-E584-4AEE-9A96-007001885A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.Dominio", "TreinaWeb.Musicas.Dominio\TreinaWeb.Musicas.Dominio.csproj", "{DD7D3137-1616-44F3-BF81-80F96E9947BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acesso a Dados", "Acesso a Dados", "{069A9FA0-C679-47B6-A0CA-22E3666FC1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.AcessoDados.Entity", "TreinaWeb.Musicas.AcessoDados.Entity\TreinaWeb.Musicas.AcessoDados.Entity.csproj", "{DAD245A5-5C16-4B02-8299-C379585DB2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Comum.Entity", "TreinaWeb.Comum.Entity\TreinaWeb.Comum.Entity.csproj", "{F323AD49-9AED-4269-9E3C-62DF450A9F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9D21F4-648D-446A-8C27-4E52854AD766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D21F4-648D-446A-8C27-4E52854AD766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D21F4-648D-446A-8C27-4E52854AD766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D21F4-648D-446A-8C27-4E52854AD766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7D3137-1616-44F3-BF81-80F96E9947BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7D3137-1616-44F3-BF81-80F96E9947BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7D3137-1616-44F3-BF81-80F96E9947BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7D3137-1616-44F3-BF81-80F96E9947BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD245A5-5C16-4B02-8299-C379585DB2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD245A5-5C16-4B02-8299-C379585DB2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD245A5-5C16-4B02-8299-C379585DB2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD245A5-5C16-4B02-8299-C379585DB2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F323AD49-9AED-4269-9E3C-62DF450A9F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F323AD49-9AED-4269-9E3C-62DF450A9F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F323AD49-9AED-4269-9E3C-62DF450A9F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F323AD49-9AED-4269-9E3C-62DF450A9F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD7D3137-1616-44F3-BF81-80F96E9947BE} = {C9944FC5-E584-4AEE-9A96-007001885A6B}
+		{DAD245A5-5C16-4B02-8299-C379585DB2F2} = {069A9FA0-C679-47B6-A0CA-22E3666FC1AD}
+		{F323AD49-9AED-4269-9E3C-62DF450A9F9C} = {069A9FA0-C679-47B6-A0CA-22E3666FC1AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {955A11B7-0ED4-4751-A3BA-994136B93F8B}
+	EndGlobalSection
+EndGlobal
