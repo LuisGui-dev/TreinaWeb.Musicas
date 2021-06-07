@@ -213,6 +213,18 @@
       <Project>{dd7d3137-1616-44f3-bf81-80f96e9947be}</Project>
       <Name>TreinaWeb.Musicas.Dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TreinaWeb.Musicas.Repositorios.Entity\TreinaWeb.Musicas.Repositorios.Entity.csproj">
+      <Project>{7e42dcd5-b8d8-4a4c-9581-7d786992ec11}</Project>
+      <Name>TreinaWeb.Musicas.Repositorios.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreinaWeb.Repositorios.Comum.Entity\TreinaWeb.Repositorios.Comum.Entity.csproj">
+      <Project>{d4e5aa7c-1f4f-4d2c-a5cc-8e7545871422}</Project>
+      <Name>TreinaWeb.Repositorios.Comum.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreinaWeb.Repositorios.Comum\TreinaWeb.Repositorios.Comum.csproj">
+      <Project>{70f35e32-9b97-48c3-bb1c-2b011256f69b}</Project>
+      <Name>TreinaWeb.Repositorios.Comum</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
