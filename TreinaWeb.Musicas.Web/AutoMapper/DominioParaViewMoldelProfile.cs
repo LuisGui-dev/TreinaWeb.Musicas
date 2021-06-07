@@ -8,7 +8,14 @@ namespace TreinaWeb.Musicas.Web.AutoMapper
     {
         protected override void Configure()
         {
-            Mapper.CreateMap<Album, AlbumIndexViewModel>();
+            Mapper.CreateMap<Album, AlbumExibicaoViewModel>()
+                .ForMember(p => p.Nome, opt =>
+                {
+                    opt.MapFrom(src =>
+                        $"{src.Nome} ({src.Ano})"
+                    );
+                });
+            Mapper.CreateMap<Album, AlbumViewModel>();
         }
     }
 }
