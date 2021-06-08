@@ -1,4 +1,6 @@
-﻿namespace TreinaWeb.Musicas.Dominio
+﻿using System.Collections.Generic;
+
+namespace TreinaWeb.Musicas.Dominio
 {
     public class Album
     {
@@ -7,5 +9,8 @@
         public int Ano { get; set; }
         public string Observacoes { get; set; }
         public string Email { get; set; }
+
+        public virtual List<Musica> Musicas { get; set; }
+
     }
 }

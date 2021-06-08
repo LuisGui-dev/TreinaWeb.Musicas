@@ -7,18 +7,18 @@ namespace TreinaWeb.Repositorios.Comum.Entity
     public class RepositorioGenericoEntity<TEntidade, Tchave> : IRepositorioGenerico<TEntidade, Tchave>
     where TEntidade : class
     {
-        private DbContext _contexto;
+        protected DbContext _contexto;
 
         public RepositorioGenericoEntity(DbContext contexto)
         {
             _contexto = contexto;
         }
-        public List<TEntidade> Selecionar()
+        public virtual List<TEntidade> Selecionar()
         {
             return _contexto.Set<TEntidade>().ToList();
         }
 
-        public TEntidade SelecionarPorId(Tchave id)
+        public virtual TEntidade SelecionarPorId(Tchave id)
         {
             return _contexto.Set<TEntidade>().Find(id);
         }
